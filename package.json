@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-claude-simple",
+  "version": "1.0.0",
+  "description": "WhatsApp + Claude integration - Ultra simple MVP",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
